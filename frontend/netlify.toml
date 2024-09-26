@@ -1,0 +1,7 @@
+[build]
+publish = "vite-project/dist"  # ตรวจสอบว่าเส้นทางนี้ถูกต้อง
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
